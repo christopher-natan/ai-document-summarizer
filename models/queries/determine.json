@@ -1,0 +1,11 @@
+{
+  "name": "Determine",
+  "prompt": "Figure out what type of document below, is that a {DOCUMENT_TYPE}. Please say your choice without additional sentences. Format the response in JSON format.",
+  "documentType": [
+    "company presentation",
+    "company update",
+    "cap table",
+    "term sheet",
+    "investment document"
+  ]
+}

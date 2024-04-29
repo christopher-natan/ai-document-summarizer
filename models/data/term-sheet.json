@@ -1,0 +1,16 @@
+{
+  "type": "Term Sheet",
+  "prompt": "Get certain information like {INFORMATION}. State your choice without additional sentences. Format the response in JSON format.",
+  "information": [
+    "Traction to date",
+    "Backstory of founder/company",
+    "Who are the customers",
+    "How big is the market",
+    "How does it work",
+    "How is it different from existing solutions",
+    "The most exciting exciting thing about this",
+    "Valuation",
+    "Types of shares issued",
+    "Number of shares issued"
+  ]
+}

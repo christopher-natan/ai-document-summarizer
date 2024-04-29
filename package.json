@@ -1,0 +1,31 @@
+{
+  "name": "ai-document-analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1608.0",
+    "aws-textract-json-parser": "^1.2.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "formidable": "^3.5.1",
+    "jsonrepair": "^3.7.0",
+    "pdfreader": "^3.0.2",
+    "pug": "^3.0.2",
+    "stream-to-s3": "^2.0.0",
+    "textbuddy": "^0.1.12",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  }
+}

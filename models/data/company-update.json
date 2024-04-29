@@ -1,0 +1,11 @@
+{
+  "type": "Company Update",
+  "prompt": "Get certain information like {INFORMATION}. State your choice without additional sentences. Format the response in JSON format.",
+  "information": [
+    "Company MRR in the last month",
+    "User growth in the last month",
+    "Total revenue (ARR and to date)",
+    "Product updates",
+    "Any significant achievements"
+  ]
+}

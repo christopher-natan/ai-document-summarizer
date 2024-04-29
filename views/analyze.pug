@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    div.container.mt-5
+        h3= documentType
+
+    each key in keys
+        div.container
+            div.container.row.border-bottom-0.p-1
+                div.col-4.bg-light
+                    =key
+                div.col-8
+                    =response[key]
+
+    div.container.mt-5
+        div.container.row.border-bottom-0.p-1
+            div.col-4.bg-light
+                The Endpoint
+            div.col-8
+                a(href=endpoint)
+                    =endpoint
+
+
+    div.container.mt-5
+        div.container.row.border-bottom-0.p-1
+            a(href='http://cmnworks.com:8000/')
+                Back Back To Home
+
